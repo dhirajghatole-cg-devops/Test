@@ -7,7 +7,9 @@ public class ConsumeController {
 
 	@RequestMapping("/hello")
 	public String hello() {
- 
+		System.out.println("Dhiraj");
 		return "Dhiraj"; 
+		
+		
 	}
 }
